@@ -1,0 +1,6 @@
+[clickhouse] 
+clickhouse ansible_host=192.168.1.61 ansible_user=root
+
+[vector]
+vector ansible_host=192.168.1.62 ansible_user=root
+
