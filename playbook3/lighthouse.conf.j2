@@ -1,0 +1,10 @@
+server {
+    listen 80 default_server;
+    root {{ lighthouse_conf_folder }};
+
+    location / {
+
+        index index.html;
+    }
+}
+
