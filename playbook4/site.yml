@@ -10,7 +10,7 @@
   hosts: vector
   tasks:
   - include_role:
-     name: vectore
+     name: vector
     tags: vector
 - name: Install LightHouse
   hosts: lighthouse
